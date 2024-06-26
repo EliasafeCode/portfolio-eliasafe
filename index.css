@@ -18,9 +18,6 @@ body {
     color: var(--txtcolor);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-body * {
-    border: 1x solid rgb(4, 0, 255);
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -28,12 +25,13 @@ header {
 }
 header h1 {
     font-size: 30px;
+    padding: 7px;
 }
 header h1 span{
     color: var(--scnd-color);
 }
 nav {
-    padding: 10px;
+    padding: 20px;
 }
 [name="menu-outline"], #menu-bar{
     display: none;
@@ -159,17 +157,8 @@ nav ul li a:hover {
     font-family: "DM sans", sans-serif;
     text-align: center;
 }
-#card1{
-
-}
-#card2{
-
-}
 #card2 img {
     width: 75px;
-}
-#card3{
-
 }
 .cards {
     background-color: var(--cardbg);
@@ -184,11 +173,38 @@ nav ul li a:hover {
 .cards:hover {
     background-color: var(--cardbghover);
 }
-
-
-
-
-
+#section4 {
+    background-color: #161616;
+}
+#h1-contato {
+    background-color: #161616;
+    margin: 100px 0 0 0 ;
+    text-align: center;
+}
+#contact-numbers p {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ion-icon {
+    margin: 5px 5px;
+    color: white;
+    font-size: 20px;
+}
+footer {
+    background-color:  #111111;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    color: white;
+    font-weight: 600;
+}
 
 
 
@@ -254,5 +270,8 @@ nav ul li a:hover {
     #txt-aboutme p {
         font-size: 14px;
         line-height: 20px;
+        margin: 10px 50px;
     }
-}
+    #section4 h1{
+        margin: 0;
+    }
