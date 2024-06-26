@@ -10,10 +10,6 @@
     --cardbg: #0D0D0D;
     --cardbghover: #2B2B2B;
 } 
-
-header {
-    border-bottom: solid 1px #E33A58;
-}
 header, #section1, #section2, #section3, #section4 {
     padding: 10px;
 }
